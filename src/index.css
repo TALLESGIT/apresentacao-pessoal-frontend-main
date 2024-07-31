@@ -7,3 +7,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@layer components {
+    .card {
+        @apply rounded-xl shadow-lg;
+        width: 100%;
+    }
+}
